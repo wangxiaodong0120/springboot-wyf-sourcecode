@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="actionApp">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>实战</title>
+
+<!-- Bootstrap的CSS -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="jqueryui/jquery-ui.min.css" rel="stylesheet">
+<style type="text/css">
+
+.content {
+  padding: 100px 15px;
+  text-align: center;
+}
+</style>
+
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#/oper">后台交互</a></li>
+            <li><a href="#/directive">自定义指令</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	
+     <div class="content">
+        <ng-view></ng-view> 
+    </div>
+	<script src="js/jquery.min.js"></script>
+	<script src="jqueryui/jquery-ui.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.min.js"></script>
+	<script src="js-action/app.js"></script>
+	<script src="js-action/directives.js"></script>
+	<script src="js-action/controllers.js"></script>
+</body>
+</html>

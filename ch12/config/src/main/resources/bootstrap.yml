@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config #1
+  profiles:
+    active: native #2 
+    
+eureka:
+  instance:
+    non-secure-port: ${server.port:8888} #3
+    metadata-map:
+      instanceId: ${spring.application.name}:${random.value} #4
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/ #5
+

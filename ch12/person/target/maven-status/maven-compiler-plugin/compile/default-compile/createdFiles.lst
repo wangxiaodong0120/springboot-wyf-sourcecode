@@ -1,0 +1,4 @@
+com/wisely/person/dao/PersonRepository.class
+com/wisely/person/domain/Person.class
+com/wisely/person/controller/PersonController.class
+com/wisely/person/PersonApplication.class

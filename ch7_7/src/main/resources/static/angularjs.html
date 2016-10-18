@@ -1,0 +1,15 @@
+<!doctype html>
+<html ng-app><!-- 1 -->
+  <head>
+  	<meta charset="utf-8">
+    <script src="js/angular.min.js"></script><!-- 2 -->
+  </head>
+  <body>
+    <div>
+      <label>名字:</label>
+      <input type="text" ng-model="yourName" placeholder="输入你的名字"><!-- 3 -->
+      <hr>
+      <h1>你好 {{yourName}}!</h1><!-- 4 -->
+    </div>
+  </body>
+</html>

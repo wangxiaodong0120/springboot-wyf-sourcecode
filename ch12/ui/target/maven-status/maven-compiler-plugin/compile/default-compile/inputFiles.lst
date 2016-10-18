@@ -1,0 +1,6 @@
+/home/wxd/workspace/idea/springboot-SourceCode/ch12/ui/src/main/java/com/wisely/ui/service/PersonHystrixService.java
+/home/wxd/workspace/idea/springboot-SourceCode/ch12/ui/src/main/java/com/wisely/ui/domain/Person.java
+/home/wxd/workspace/idea/springboot-SourceCode/ch12/ui/src/main/java/com/wisely/ui/service/SomeHystrixService.java
+/home/wxd/workspace/idea/springboot-SourceCode/ch12/ui/src/main/java/com/wisely/ui/service/PersonService.java
+/home/wxd/workspace/idea/springboot-SourceCode/ch12/ui/src/main/java/com/wisely/ui/controller/UiController.java
+/home/wxd/workspace/idea/springboot-SourceCode/ch12/ui/src/main/java/com/wisely/ui/UiApplication.java
